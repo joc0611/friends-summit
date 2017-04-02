@@ -30,7 +30,7 @@ Kubernetes
 Kubernetes  Architecture 101
 ----------------------------
 
-Master 
+Master
 Nodes
 Pods
 
@@ -49,13 +49,16 @@ Lokale Docker Installation (auch Jenkins etc. möglich)
 Google Cloud Platform Account - > Dashboard zeigen
 Container Registry in Goolge Cloud platform
 Container Engine Cluster in Google Cloud Platform bestehend aus Master und Nodes
+Connect Registry to GitHUb
+https://console.cloud.google.com/gcr/
+https://console.cloud.google.com/gcr
 
 
-Tools: 
+Tools:
 
 docker command line
 gcloud command line
-kubectl command line 
+kubectl command line
 Einrichten: Credentials f docker, gcloud, kubectl
 
 
@@ -68,6 +71,11 @@ Bisher nur deployment wie überall anders auch.
 
 
 
+Rollouts
+---------
+
+Replica sets
+
 
 Deep Dive
 ---------
@@ -75,19 +83,17 @@ Deep Dive
 https://kubernetes.io/docs/concepts/overview/components/
 
 
+
+Persistence
+-----------
+
+Use managed database service in Google Cloud
+Stateful sets
+Volumes
+
+
 Helm
 ------
 
 
 https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
-
-
-
-
-
-
-
-
-
-
-

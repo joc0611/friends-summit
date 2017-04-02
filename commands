@@ -1,3 +1,5 @@
 docker build . -t friends-summit/server
 docker run -p 8080:8080 -d friends-summit/server
 http://192.168.99.100:8080/
+
+https://console.cloud.google.com/home/dashboard?project=friends-summit

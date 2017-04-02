@@ -18,9 +18,7 @@ var http = require('http');
 var os = require('os');
 
 var handleRequest = function (req, res) {
-  log(req)
   res.writeHead(200);
-  res.
   res.end('Hello Friends Summit 2017, I am running on ' + os.hostname());
 };
 
