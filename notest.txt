@@ -1,0 +1,93 @@
+Kubernetes (30 min)
+===================
+
+Intro: Plain docker
+-------------------
+
+Jenkins 1 Container: Command line -> Fine
+Sonar 2 Containers: docker-compose -> Fine
+Sonar mit 2 Knoten, loadbalancer: docker-compose -> Fine
+Knoten 1 raucht ab -> ???
+Viele Slaves eines Typs werden gebraucht -> ???
+
+====> Container orchestration
+
+
+Container Orchestration Tools
+------------------------------
+
+Docker Swarm
+Amazon ECS
+CloudFoundry Diego
+Apache Mesos /Marathon
+Hashicorp Nomad
+...
+
+Kubernetes
+
+
+
+Kubernetes  Architecture 101
+----------------------------
+
+Master 
+Nodes
+Pods
+
+(see https://kubernetes.io/docs/concepts/)
+
+
+Demo
+----
+
+Grafik für Stack und Tools
+
+Toolstack:
+
+Node.js -> Zeigen
+Lokale Docker Installation (auch Jenkins etc. möglich)
+Google Cloud Platform Account - > Dashboard zeigen
+Container Registry in Goolge Cloud platform
+Container Engine Cluster in Google Cloud Platform bestehend aus Master und Nodes
+
+
+Tools: 
+
+docker command line
+gcloud command line
+kubectl command line 
+Einrichten: Credentials f docker, gcloud, kubectl
+
+
+Why do that
+-----------
+
+Bisher nur deployment wie überall anders auch.
+
+
+
+
+
+
+Deep Dive
+---------
+
+https://kubernetes.io/docs/concepts/overview/components/
+
+
+Helm
+------
+
+
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+
+
+
+
+
+
+
+
+
+
+
