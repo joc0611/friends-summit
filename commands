@@ -1,5 +1,24 @@
+Build & run locally
+-------------------
 docker build . -t friends-summit/server
 docker run -p 8080:8080 -d friends-summit/server
 http://192.168.99.100:8080/
 
-https://console.cloud.google.com/home/dashboard?project=friends-summit
+
+Web Interfaces
+--------------
+
+GitHub
+  https://github.com/jolangbein/friends-summit
+
+Google Cloud Platform
+  https://console.cloud.google.com/home/dashboard?project=friends-summit
+
+Google Container Engine
+  https://console.cloud.google.com/kubernetes/list?project=friends-summit
+
+Google Container Registry
+  https://console.cloud.google.com/gcr/images/friends-summit?project=friends-summit&authuser=0
+
+Kubernetes UI
+  http://127.0.0.1:8001/ui

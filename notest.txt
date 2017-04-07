@@ -1,40 +1,4 @@
-Kubernetes (30 min)
-===================
 
-Intro: Plain docker
--------------------
-
-Jenkins 1 Container: Command line -> Fine
-Sonar 2 Containers: docker-compose -> Fine
-Sonar mit 2 Knoten, loadbalancer: docker-compose -> Fine
-Knoten 1 raucht ab -> ???
-Viele Slaves eines Typs werden gebraucht -> ???
-
-====> Container orchestration
-
-
-Container Orchestration Tools
-------------------------------
-
-Docker Swarm
-Amazon ECS
-CloudFoundry Diego
-Apache Mesos /Marathon
-Hashicorp Nomad
-...
-
-Kubernetes
-
-
-
-Kubernetes  Architecture 101
-----------------------------
-
-Master
-Nodes
-Pods
-
-(see https://kubernetes.io/docs/concepts/)
 
 
 Demo
@@ -97,3 +61,7 @@ Helm
 
 
 https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+
+
+Secret Management
+-----------------
