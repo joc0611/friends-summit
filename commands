@@ -31,6 +31,8 @@ kubectl create -f src/Deployment.yaml
 
 kubectl create -f src/Service.yaml
 
-kubectl scale --replicas=3 rs/foo
+kubectl scale --replicas=3 deployment/node-server-deployment
 
-kubectl rolling-update frontend --image=image:v2
+kubectl set image deployment/node-server-deployment node-server=gcr.io/friends-summit/node-server:1.2
+
+kubectl rollout status deployment/node-server-deployment
