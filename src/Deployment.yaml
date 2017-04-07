@@ -1,9 +1,9 @@
-apiVersion: apps/v1beta1
+apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: node-server-deployment
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: node-server
-        image: gcr.io/friends-summit/node-server:1.0
+        image: gcr.io/friends-summit/node-server:1.1
         ports:
         - containerPort: 8080

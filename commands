@@ -1,7 +1,7 @@
 Build & run locally
 -------------------
-docker build . -t friends-summit/server
-docker run -p 8080:8080 -d friends-summit/server
+docker build . -t friends-summit/node-server
+docker run -p 8080:8080 -d friends-summit/node-server
 http://192.168.99.100:8080/
 
 
@@ -22,3 +22,15 @@ Google Container Registry
 
 Kubernetes UI
   http://127.0.0.1:8001/ui
+
+
+Kubectl
+--------
+
+kubectl create -f src/Deployment.yaml
+
+kubectl create -f src/Service.yaml
+
+kubectl scale --replicas=3 rs/foo
+
+kubectl rolling-update frontend --image=image:v2
