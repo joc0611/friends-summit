@@ -20,7 +20,7 @@ var os = require('os');
 var handleRequest = function (req, res) {
   console.log('Handling request from ' + req.connection.remoteAddress);
   res.writeHead(200);
-  res.end('Hello World, I am running on ' + os.hostname());
+  res.end('Hello Friends Summit, I am running on ' + os.hostname());
 };
 
 var www = http.createServer(handleRequest);
